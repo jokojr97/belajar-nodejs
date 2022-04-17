@@ -1,14 +1,1 @@
-[
-    {
-        "nama": "joko",
-        "nohp": "08082108028"
-    },
-    {
-        "nama": "riyadi",
-        "nohp": "2080283083"
-    },
-    {
-        "nama": "jokori",
-        "nohp": "0832289090"
-    }
-]
+[{"nama":"joko","nohp":"08082108028"},{"nama":"riyadi","nohp":"2080283083"},{"nama":"jokori","nohp":"0832289090"},{"nama":"joko","nohp":"riyadi"}]
