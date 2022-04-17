@@ -3,12 +3,9 @@
 const contacts = require('./contacts');
 
 const main = async () => {
-    const pertanyaan1 = "masukkan nama anda: ";
-    const pertanyaan2 = "masukkan email anda: ";
-    const pertanyaan3 = "masukkan nomor hp anda: ";
-    const nama = await contacts.questions(pertanyaan1);
-    const email = await contacts.questions(pertanyaan2);
-    const nohp = await contacts.questions(pertanyaan3);
+    const nama = await contacts.questions("masukkan nama anda: ");
+    const email = await contacts.questions("masukkan email anda: ");
+    const nohp = await contacts.questions("masukkan nomor hp anda: ");
 
     contacts.simpanContact(nama, email, nohp);
 }
