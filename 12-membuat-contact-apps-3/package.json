@@ -1,0 +1,15 @@
+{
+  "name": "11-membuat-contact-apps-2",
+  "version": "1.0.0",
+  "description": "belajar npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jokori",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.7.0",
+    "yargs": "^17.4.1"
+  }
+}
