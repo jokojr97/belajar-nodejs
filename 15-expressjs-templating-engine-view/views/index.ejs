@@ -1,0 +1,15 @@
+<!-- <% const nama='joko riyadi' %> -->
+<h3>ini adalah halaman index.html welcome to my home page</h3>
+<h5>Selamat datang, <%= nama %>
+</h5>
+<h5>daftar mahasiswa</h5>
+<% if (mahasiswa.length < 1) { %>
+    <p>Data mahasiswa masih kosong</p>
+<% } %>
+<% mahasiswa.forEach(mhs=> { %>
+    <ul>
+        <li>nama: <%= mhs.nama %></li>
+        <li>jurusan: <%= mhs.jurusan %></li>
+        <li>semester: <%= mhs.semester %></li>
+    </ul>
+<% }) %>
