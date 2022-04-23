@@ -38,7 +38,7 @@ const detailContact = (nama) => {
         if (!contact) {
             console.log(`Kontak dengan nama ${nama} tidak ditemukan!`);
             // console.log(contact);
-            reject(false);
+            // reject(false);
         }
 
         resolve(contact);
