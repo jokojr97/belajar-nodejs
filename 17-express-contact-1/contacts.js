@@ -77,10 +77,7 @@ const simpanContact = async (nama, email, nohp) => {
         if (e) throw e;
         console.log("Terima Kasih telah input data!");
     });
-
-
 }
-
 
 const deleteContact = async (nama) => {
     const contacts = await loadContacts();
